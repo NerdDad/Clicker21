@@ -4,15 +4,8 @@ import { Meta } from '../layout/Meta';
 import { Main } from '../templates/Main';
 
 const Index = () => (
-  <Main
-    meta={(
-      <Meta
-        title="Next.js Boilerplate Presentation"
-        description="Next js Boilerplate is the perfect starer code for your project. Build your React application with Next.js framework."
-      />
-    )}
-  >
-    <a href="https://github.com/ixartz/Next-js-Boilerplate">
+  <Main meta={<Meta title="Clicker 21" description="An idle clicker" />}>
+    {/* <a href="https://github.com/ixartz/Next-js-Boilerplate">
       <img
         src={`${process.env.baseUrl}/assets/images/nextjs-starter-banner.png`}
         alt="Nextjs starter banner"
@@ -209,7 +202,7 @@ const Index = () => (
       {' '}
       <a href="https://github.com/ixartz/Next-js-Boilerplate">Nextjs Boilerplate</a>
       .
-    </p>
+    </p> */}
   </Main>
 );
 

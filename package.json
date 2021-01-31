@@ -1,8 +1,8 @@
 {
-  "name": "next-js-boilerplate",
+  "name": "clicker21",
   "version": "1.0.0",
   "scripts": {
-    "dev": "next --port 8080",
+    "dev": "next",
     "build": "next build",
     "start": "next start",
     "build-stats": "ANALYZE=true npm run build",
