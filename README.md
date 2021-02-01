@@ -1,3 +1,6 @@
+Clicker 21
+
+An idle clicker
 
 ### License
 
